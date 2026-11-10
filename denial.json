@@ -1,0 +1,91 @@
+{
+    "BACKGROUND_COLOR": "#121214",
+    "audioSubsystem": "experimental",
+    "offloadAdmControls": true,
+    "DESKTOP_TTI_HTTP_CDT": true,
+    "chromiumSwitches": {},
+    "enableHardwareAcceleration": false,
+    "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true,
+    "IS_MAXIMIZED": true,
+    "IS_MINIMIZED": false,
+    "DESKTOP_FULLSCREEN_POPUP_OCCLUSION": true,
+    "denialResource": {
+        "resourceName": "DENIAL // SYSTEM RESOURCE",
+        "resourceVersion": "2.7.0",
+        "resourceType": "PC_DIAGNOSTICS_CONFIGURATION",
+        "doNotDelete": true,
+        "display": {
+            "title": "⚠ DENIAL RESOURCE",
+            "subtitle": "SYSTEM PROFILE & HARDWARE INTELLIGENCE",
+            "background": "#0B0D14",
+            "accent": "#00E5FF",
+            "secondaryAccent": "#A855F7",
+            "statusColor": "#39FF88",
+            "warningColor": "#FFB020",
+            "style": "NEON_DIAGNOSTICS",
+            "showStatusIndicator": true,
+            "statusText": "RESOURCE ACTIVE // AWAITING SYSTEM SCAN"
+        },
+        "messages": {
+            "header": "WELCOME TO THE DENIAL SYSTEM",
+            "description": "A dedicated resource for collecting and presenting this computer's hardware and system specifications.",
+            "notice": "DO NOT DELETE THIS RESOURCE. Required configuration data for the DENIAL diagnostics interface.",
+            "scanPrompt": "INITIALIZE HARDWARE PROFILE READING",
+            "scanReady": "SYSTEM READY — PREPARE FOR SPECIFICATION ANALYSIS",
+            "scanComplete": "PROFILE READ COMPLETE — SYSTEM INFORMATION LOADED",
+            "footer": "DENIAL SYSTEMS // HARDWARE INTELLIGENCE DIVISION",
+            "loading": [
+                "Establishing diagnostic interface...",
+                "Reading processor information...",
+                "Checking installed memory...",
+                "Inspecting graphics hardware...",
+                "Collecting storage details...",
+                "Preparing system profile..."
+            ]
+        },
+        "systemReadout": {
+            "enabled": true,
+            "purpose": "READ_PC_SPECIFICATIONS",
+            "categories": [
+                {
+                    "id": "processor",
+                    "label": "PROCESSOR",
+                    "description": "CPU name, manufacturer, core count and reported speed"
+                },
+                {
+                    "id": "memory",
+                    "label": "SYSTEM MEMORY",
+                    "description": "Installed RAM and available memory, where supported"
+                },
+                {
+                    "id": "graphics",
+                    "label": "GRAPHICS INTERFACE",
+                    "description": "Detected GPU name and reported graphics information"
+                },
+                {
+                    "id": "storage",
+                    "label": "STORAGE ARRAY",
+                    "description": "Detected drives and reported capacity"
+                },
+                {
+                    "id": "operatingSystem",
+                    "label": "OPERATING SYSTEM",
+                    "description": "Operating system name, version and architecture"
+                },
+                {
+                    "id": "system",
+                    "label": "SYSTEM PROFILE",
+                    "description": "Device manufacturer, model and system architecture"
+                }
+            ],
+            "readOnly": true,
+            "requiresUserAwareness": true,
+            "transmitData": false
+        },
+        "resourceNotice": {
+            "title": "SYSTEM RESOURCE NOTICE",
+            "text": "This resource is intended for local hardware and operating-system specification reporting. It does not authorize access to personal files, passwords, or private user data.",
+            "deletionWarning": "DO NOT REMOVE — DENIAL RESOURCE CONFIGURATION"
+        }
+    }
+}
